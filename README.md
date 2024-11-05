@@ -19,13 +19,11 @@ This repository contains solutions to two coding tasks involving interacting wit
 
 This endpoint fetches and lists product details (such as title, price, and description) based on the `category` parameter provided in the query string. It retrieves data from the Fake Store API’s `/products/category/<category_name>` endpoint and returns a structured JSON response containing only the required fields.
 
-**Sample Request:**
+## Task 2: Add a New Product
+Endpoint: POST /api/products
 
-```http
-GET /api/products?category=jewelery
+This endpoint allows the addition of a new product with all relevant properties, posting the data to the Fake Store API’s /products endpoint. The request body should include product details such as title, price, description, etc.
 
-\+++++++++++++++++++++++++++++/
 
-## task 2 is named by prospecta2
 
-## and I put all the Theoretical Challenges answer in prospecta 2 folder
+
