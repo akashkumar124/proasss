@@ -1,0 +1,3 @@
+Users might break the code by passing invalid categories or malformed product data in POST requests.
+
+Network issues or rate limits from the external API could also disrupt API functionality

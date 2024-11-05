@@ -1,0 +1,6 @@
+Validate category names to ensure only valid categories are accepted.
+
+For POST requests, validate required fields (e.g., title, price, etc.) and handle missing
+ or malformed input.
+ 
+Implement error handling for network errors, invalid responses, and timeouts from the external API.

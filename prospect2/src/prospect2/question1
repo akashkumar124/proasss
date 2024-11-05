@@ -1,0 +1,7 @@
+For Task 1, I’d create an API endpoint that takes a category parameter, uses GET to retrieve 
+products from the specified category, then filters and formats the product data to return only
+the required details (title, price, description, etc.).
+
+For Task 2, I’d implement an API endpoint to accept product data in a POST request, 
+ensuring all relevant fields are validated, and then send this data to the external API for 
+creation.
